@@ -82,6 +82,24 @@ select{
 	height: 3vmax;
 }
 
+.githubButton {
+	background-image: url('../img/github-logo.svg');
+	background-size: cover;
+	-webkit-filter: invert(1);
+	        filter: invert(1);
+	background-repeat: no-repeat;
+	border: none;
+
+	opacity: .8;
+	margin: 0;
+	position: absolute;
+	top: 6vmax;
+	right: 2vmax;
+
+	width: 3vmax;
+	height: 3vmax;
+}
+
 .preferenceButton:hover, .closePreferenceButton:hover {
 	opacity: 1;
 	-webkit-transform: scale(1.1);
