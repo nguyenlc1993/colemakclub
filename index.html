@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Colemak Club - Learn Colemak fast. A free, easy way to learn to touch type the Colemak layout, Colemak-DH, Dvorak, and other custom keyboard layouts. The best, most customizable typing tutor and keyboard trainer available. Also works for Workman, Soul, Niro, QWERTY, and AZERTY.</title>
+	<title>Colemak Club - Learn Colemak fast. A free, easy way to learn to touch type the Colemak layout, Colemak-DH,
+		Dvorak, and other custom keyboard layouts. The best, most customizable typing tutor and keyboard trainer available.
+		Also works for Workman, Soul, Niro, QWERTY, and AZERTY.</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Colemak Club - Learn Colemak fast. A free, easy way to learn to touch type the Colemak layout, Colemak-DH, Dvorak, and other custom keyboard layouts. The best, most customizable typing tutor and keyboard trainer available. Also works for Workman, Soul, Niro, QWERTY, and AZERTY.">
+	<meta name="description"
+		content="Colemak Club - Learn Colemak fast. A free, easy way to learn to touch type the Colemak layout, Colemak-DH, Dvorak, and other custom keyboard layouts. The best, most customizable typing tutor and keyboard trainer available. Also works for Workman, Soul, Niro, QWERTY, and AZERTY.">
 	<meta name="author" content="Layout Academy">
 
 	<link rel="icon" href='img/favicon.webp'>
 	<link rel="stylesheet" type="text/css" href="logic/main.css">
 </head>
+
 <body>
 	<select autocomplete="off">
 		<option value='colemak'>Colemak</option>
@@ -29,20 +34,21 @@
 	<div class='preferenceMenu'>
 		<button class='closePreferenceButton'></button>
 		<ul class='preferences'>
-			<li>Capital Letters Allowed<input class='capitalLettersAllowed' type="checkbox"autocomplete="off"></li>
-			<li>Punctuation Allowed<input class='punctuationModeButton' type="checkbox"autocomplete="off"></li>
-			<li>Full Sentence Mode<input class='fullSentenceMode' type="checkbox"autocomplete="off"></li>
+			<li>Capital Letters Allowed<input class='capitalLettersAllowed' type="checkbox" autocomplete="off"></li>
+			<li>Punctuation Allowed<input class='punctuationModeButton' type="checkbox" autocomplete="off"></li>
+			<li>Full Sentence Mode<input class='fullSentenceMode' type="checkbox" autocomplete="off"></li>
 			<li>Word Scrolling Mode
-				<input class='wordScrollingModeButton' type="checkbox" autocomplete="off"checked>
+				<input class='wordScrollingModeButton' type="checkbox" autocomplete="off" checked>
 			</li>
 			<li>
-				<input class='timeLimitModeInput noDisplay' type="number" value="60"autocomplete="off">
-				Time Limit Mode<input class='timeLimitModeButton' type="checkbox"autocomplete="off">
+				<input class='timeLimitModeInput noDisplay' type="number" value="60" autocomplete="off">
+				Time Limit Mode<input class='timeLimitModeButton' type="checkbox" autocomplete="off">
 			</li>
-			<li>  
-				<input class='wordLimitModeInput' type="number" value="50" step="10"autocomplete="off">
-				Word Limit Mode <input class='wordLimitModeButton' type="checkbox" autocomplete="off"checked> 
+			<li>
+				<input class='wordLimitModeInput' type="number" value="50" step="10" autocomplete="off">
+				Word Limit Mode <input class='wordLimitModeButton' type="checkbox" autocomplete="off" checked>
 			</li>
+			<li>Show Keyboard<input class='showKeyboard' type="checkbox" autocomplete="off"></li>
 		</ul>
 	</div>
 
@@ -83,7 +89,7 @@
 				</h2>
 			</div>
 			<button id="resetButton" class='noDisplay'>Reset</button>
-			<input id = 'userInput' type="paragraph" spellcheck="false">
+			<input id='userInput' type="paragraph" spellcheck="false">
 			<div id='scoreAndClock'>
 				<span id="scoreText">0/50</span>
 				<span id="timeText">0m :0 s</span>
@@ -103,9 +109,9 @@
 
 	<div id='mappingToggle'>
 		<h6>Keyboard Mapping: <span>off</span></h6>
-		<label class="switch" >
-  			<input type="checkbox"  autocomplete="off">
- 			<span class="slider"></span>
+		<label class="switch">
+			<input type="checkbox" autocomplete="off">
+			<span class="slider"></span>
 		</label>
 	</div>
 
@@ -114,6 +120,7 @@
 	<script type="text/javascript" src="logic/keyboardDivs.js"></script>
 	<script type="text/javascript" src="logic/app.js"></script>
 </body>
+
 </html>
 
 <!-- ©NickMariano 2020 -->
